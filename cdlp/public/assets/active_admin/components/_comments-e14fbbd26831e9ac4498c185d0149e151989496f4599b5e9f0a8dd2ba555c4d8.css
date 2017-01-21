@@ -1,0 +1,48 @@
+/* line 5, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/components/_comments.scss */
+.comments .active_admin_comment {
+  clear: both;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  max-width: 700px;
+}
+/* line 11, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/components/_comments.scss */
+.comments .active_admin_comment .active_admin_comment_meta {
+  width: 130px;
+  float: left;
+  overflow: hidden;
+  font-size: 0.9em;
+  color: #767e84;
+}
+/* line 17, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/components/_comments.scss */
+.comments .active_admin_comment .active_admin_comment_meta .active_admin_comment_author {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 0;
+  color: #5E6469;
+}
+/* line 24, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/components/_comments.scss */
+.comments .active_admin_comment .active_admin_comment_body {
+  margin-left: 150px;
+}
+/* line 28, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/components/_comments.scss */
+.comments form.active_admin_comment {
+  margin: 0;
+  padding: 0;
+  margin-left: 150px;
+}
+/* line 33, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/components/_comments.scss */
+.comments form.active_admin_comment fieldset.inputs {
+  margin: 0;
+  padding: 0;
+  background: none;
+  box-shadow: none;
+}
+/* line 39, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/components/_comments.scss */
+.comments form.active_admin_comment li {
+  padding: 0;
+}
+/* line 40, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/components/_comments.scss */
+.comments form.active_admin_comment fieldset.buttons {
+  padding: 0;
+  margin-top: 5px;
+}

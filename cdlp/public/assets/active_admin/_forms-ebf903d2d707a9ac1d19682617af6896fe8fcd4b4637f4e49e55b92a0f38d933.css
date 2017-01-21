@@ -1,0 +1,502 @@
+/* line 4, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form {
+  /* Reset margins & Padding */
+  /* Nested Fieldsets and Legends */
+  /* Text Fields */
+  /* semantic_errors */
+  /* Buttons */
+}
+/* line 6, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form ul, form ol, form li, form fieldset, form legend, form input, form textarea, form select, form p {
+  margin: 0;
+  padding: 0;
+}
+/* line 7, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form ol, form ul {
+  list-style: none;
+}
+/* line 9, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form fieldset {
+  border: 0;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+/* line 14, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form fieldset.inputs {
+  background: #f4f4f4;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 4px #ddd;
+}
+/* line 16, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form fieldset legend {
+  width: 100%;
+}
+/* line 18, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form fieldset legend span {
+  display: block;
+  background-color: #efefef;
+  background-image: linear-gradient(180deg, #efefef, #dfe1e2);
+  text-shadow: #fff 0 1px 0;
+  border: solid 1px #cdcdcd;
+  border-color: #d4d4d4;
+  border-top-color: #e6e6e6;
+  border-right-color: #d4d4d4;
+  border-bottom-color: #cdcdcd;
+  border-left-color: #d4d4d4;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 0 1px #FFF inset;
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 18px;
+  margin-bottom: 0.5em;
+  color: #5E6469;
+  padding: 5px 10px 3px 10px;
+}
+/* line 21, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form fieldset ol > li {
+  padding: 10px;
+}
+/* line 23, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form fieldset ol > li label {
+  display: block;
+  width: 20%;
+  float: left;
+  font-size: 1.0em;
+  font-weight: bold;
+  color: #5E6469;
+}
+/* line 30, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form fieldset ol > li label abbr {
+  border: none;
+  color: #aaa;
+}
+/* line 37, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form fieldset ol > li.has_many_container {
+  padding: 20px 10px;
+}
+/* line 39, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form fieldset ol > li.has_many_container h3 {
+  font-size: 12px;
+  font-weight: bold;
+}
+/* line 43, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form fieldset ol > li.has_many_container .has_many_fields {
+  margin: 10px 0;
+}
+/* line 46, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form fieldset ol > li > li label {
+  line-height: 100%;
+  padding-top: 0;
+}
+/* line 49, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form fieldset ol > li > li label input {
+  line-height: 100%;
+  vertical-align: middle;
+  margin-top: -0.1em;
+}
+/* line 58, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form .has_many_fields {
+  position: relative;
+}
+/* line 61, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form .has_many_container .handle {
+  position: absolute;
+  top: calc(50% - 3em / 2);
+  right: 2px;
+  padding: 0;
+  cursor: move;
+}
+/* line 70, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form .has_many_container.ui-sortable .has_many_container {
+  margin-right: 2em;
+}
+/* line 77, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form .ui-sortable input[type=text], form .ui-sortable input[type=password], form .ui-sortable input[type=email], form .ui-sortable input[type=number], form .ui-sortable input[type=url], form .ui-sortable input[type=tel], form .ui-sortable textarea {
+  width: calc(80% - 22px - 2em - 1px);
+}
+/* line 85, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form fieldset > ol > li fieldset {
+  position: relative;
+  padding: 0;
+  margin-bottom: 0;
+}
+/* line 90, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form fieldset > ol > li fieldset legend {
+  position: absolute;
+  width: 95%;
+  padding-top: 0.1em;
+  left: 0px;
+  font-size: 100%;
+  font-weight: normal;
+}
+/* line 97, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form fieldset > ol > li fieldset legend span {
+  position: absolute;
+}
+/* line 98, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form fieldset > ol > li fieldset legend.label label {
+  position: absolute;
+}
+/* line 101, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form fieldset > ol > li fieldset:not(.has_many_fields) ol {
+  float: left;
+  width: 74%;
+  margin: 0;
+  padding: 0 0 0 20%;
+}
+/* line 107, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form fieldset > ol > li fieldset:not(.has_many_fields) ol li {
+  padding: 0;
+  border: 0;
+}
+/* line 113, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form fieldset > ol > li fieldset.has_many_fields ol {
+  float: left;
+  width: 100%;
+  margin: 0;
+}
+/* line 122, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form input[type=text],
+form input[type=password],
+form input[type=email],
+form input[type=number],
+form input[type=url],
+form input[type=tel],
+form input[type=date],
+form textarea {
+  width: calc(80% - 22px);
+  border: 1px solid #c9d0d6;
+  border-radius: 3px;
+  font-size: 0.95em;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  outline: none;
+  padding: 8px 10px 7px;
+}
+/* line 138, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form input[type=text]:focus,
+form input[type=password]:focus,
+form input[type=email]:focus,
+form input[type=number]:focus,
+form input[type=url]:focus,
+form input[type=tel]:focus,
+form input[type=date]:focus,
+form textarea:focus {
+  border: 1px solid #99a2aa;
+  box-shadow: 0 0 4px #99a2aa;
+}
+/* line 144, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form input[type=date] {
+  width: calc(100% - 22px);
+}
+/* line 148, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form fieldset > ol > li {
+  /* Hints */
+  /* Date and Time Fields */
+  /* Check Boxes or Radio fields */
+  /* Boolean Field */
+  /* Hidden fields */
+  /* Errors */
+}
+/* line 151, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form fieldset > ol > li p.inline-hints {
+  font-size: 0.95em;
+  font-style: italic;
+  color: #666;
+  margin: 0.5em 0 0 20%;
+}
+/* line 160, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form fieldset > ol > li.date_select fieldset ol li, form fieldset > ol > li.time_select fieldset ol li, form fieldset > ol > li.datetime_select fieldset ol li {
+  float: left;
+  width: auto;
+  margin: 0 0.5em 0 0;
+}
+/* line 162, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form fieldset > ol > li.date_select fieldset ol li label, form fieldset > ol > li.time_select fieldset ol li label, form fieldset > ol > li.datetime_select fieldset ol li label {
+  display: none;
+}
+/* line 163, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form fieldset > ol > li.date_select fieldset ol li input, form fieldset > ol > li.time_select fieldset ol li input, form fieldset > ol > li.datetime_select fieldset ol li input {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+/* line 169, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form fieldset > ol > li.check_boxes fieldset ol, form fieldset > ol > li.radio fieldset ol {
+  margin-bottom: -0.6em;
+}
+/* line 171, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form fieldset > ol > li.check_boxes fieldset ol li, form fieldset > ol > li.radio fieldset ol li {
+  margin: 0.1em 0 0.5em 0;
+}
+/* line 173, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form fieldset > ol > li.check_boxes fieldset ol li label, form fieldset > ol > li.radio fieldset ol li label {
+  float: none;
+  width: 100%;
+}
+/* line 176, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form fieldset > ol > li.check_boxes fieldset ol li label input, form fieldset > ol > li.radio fieldset ol li label input {
+  margin-right: 0.2em;
+}
+/* line 183, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form fieldset > ol > li.boolean {
+  min-height: 1.1em;
+}
+/* line 185, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form fieldset > ol > li.boolean label {
+  width: 80%;
+  padding-left: 20%;
+  padding-right: 10px;
+  text-transform: none !important;
+  font-weight: normal;
+}
+/* line 191, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form fieldset > ol > li.boolean label input {
+  margin: 0 0.5em 0 0.2em;
+}
+/* line 196, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form fieldset > ol > li.hidden {
+  padding: 0;
+}
+/* line 201, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form fieldset > ol > li p.inline-errors {
+  color: #932419;
+  font-weight: bold;
+  margin: 0.3em 0 0 20%;
+}
+/* line 206, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form fieldset > ol > li ul.errors {
+  color: #932419;
+  margin: 0.5em 0 0 20%;
+  list-style: square;
+}
+/* line 210, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form fieldset > ol > li ul.errors li {
+  padding: 0;
+  border: none;
+  display: list-item;
+}
+/* line 214, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form fieldset > ol > li.error input[type=text], form fieldset > ol > li.error input[type=password], form fieldset > ol > li.error input[type=email], form fieldset > ol > li.error input[type=number], form fieldset > ol > li.error input[type=url], form fieldset > ol > li.error input[type=tel], form fieldset > ol > li.error textarea {
+  border: 1px solid #932419;
+}
+/* line 221, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form ul.errors {
+  background: #fae6e4;
+  border-radius: 4px;
+  color: #932419;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding: 10px;
+  list-style: square;
+}
+/* line 229, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form ul.errors li {
+  margin-left: 15px;
+  padding: 0;
+  border: none;
+  display: list-item;
+}
+/* line 234, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form input[type=submit], form input[type=button], form button {
+  border-radius: 200px;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 1.0em;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 12px;
+  margin-right: 3px;
+  padding: 7px 16px 6px;
+  text-decoration: none;
+  background-color: #838a90;
+  background-image: linear-gradient(180deg, #838a90, #414549);
+  text-shadow: #000 0 1px 0;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 1px 0 0px rgba(255, 255, 255, 0.2) inset;
+  border: solid 1px #484e53;
+  border-color: #484e53;
+  border-top-color: #616a71;
+  border-right-color: #484e53;
+  border-bottom-color: #363b3f;
+  border-left-color: #484e53;
+  color: #efefef;
+  cursor: pointer;
+}
+/* line 12, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/mixins/_buttons.scss */
+form input[type=submit].disabled, form input[type=button].disabled, form button.disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+/* line 29, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/mixins/_buttons.scss */
+form input[type=submit]:not(.disabled):hover, form input[type=button]:not(.disabled):hover, form button:not(.disabled):hover {
+  background-color: #8b9297;
+  background-image: linear-gradient(180deg, #8b9297, #484d51);
+}
+/* line 33, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/mixins/_buttons.scss */
+form input[type=submit]:not(.disabled):active, form input[type=button]:not(.disabled):active, form button:not(.disabled):active {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4) inset, 0 1px 0 0px #FFF;
+  background-color: #71797f;
+  background-image: linear-gradient(180deg, #71797f, #35383b);
+}
+/* line 240, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form .buttons, form .actions {
+  margin-top: 15px;
+}
+/* line 242, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form .buttons input[type=submit], form .buttons input[type=button], form .buttons button, form .actions input[type=submit], form .actions input[type=button], form .actions button {
+  margin-right: 10px;
+}
+/* line 245, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form fieldset.buttons li, form fieldset.actions li {
+  float: left;
+  padding: 0;
+}
+/* line 249, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form fieldset.buttons li.cancel a, form fieldset.actions li.cancel a {
+  border-radius: 200px;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 1.0em;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 12px;
+  margin-right: 3px;
+  padding: 7px 16px 6px;
+  text-decoration: none;
+  background-color: #FFFFFF;
+  background-image: linear-gradient(180deg, #FFFFFF, #E7E7E7);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 1px 0 0 rgba(255, 255, 255, 0.8) inset;
+  border: solid 1px #c7c7c7;
+  border-color: #c7c7c7;
+  border-top-color: #d3d3d3;
+  border-right-color: #c7c7c7;
+  border-bottom-color: #c2c2c2;
+  border-left-color: #c7c7c7;
+  text-shadow: #fff 0 1px 0;
+  color: #5E6469;
+}
+/* line 12, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/mixins/_buttons.scss */
+form fieldset.buttons li.cancel a.disabled, form fieldset.actions li.cancel a.disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+/* line 50, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/mixins/_buttons.scss */
+form fieldset.buttons li.cancel a:not(.disabled):hover, form fieldset.actions li.cancel a:not(.disabled):hover {
+  background-color: #FFFFFF;
+  background-image: linear-gradient(180deg, #FFFFFF, #F1F1F1);
+}
+/* line 54, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/mixins/_buttons.scss */
+form fieldset.buttons li.cancel a:not(.disabled):active, form fieldset.actions li.cancel a:not(.disabled):active {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.22) inset, 0 1px 0 0px #EEE;
+  border-color: #b9b9b9;
+  border-top-color: #c2c2c2;
+  border-right-color: #b9b9b9;
+  border-bottom-color: #b7b7b7;
+  border-left-color: #b9b9b9;
+  background-color: #F3F3F3;
+  background-image: linear-gradient(180deg, #F3F3F3, #D8D8D8);
+}
+
+/* line 259, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+.sidebar_section label {
+  display: block;
+  text-transform: uppercase;
+  color: #5E6469;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+/* line 267, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+.sidebar_section select {
+  width: 240px;
+}
+/* line 271, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+.sidebar_section input[type=text], .sidebar_section input[type=password], .sidebar_section input[type=email], .sidebar_section input[type=url], .sidebar_section input[type=tel], .sidebar_section textarea {
+  width: 220px;
+}
+
+/* line 289, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form.filter_form .filter_form_field {
+  margin-bottom: 10px;
+  clear: both;
+}
+/* line 294, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form.filter_form .filter_form_field.select_and_search input[type=text] {
+  margin-left: 16px;
+  width: 88px;
+}
+/* line 298, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form.filter_form .filter_form_field.select_and_search select {
+  width: 108px;
+}
+/* line 304, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form.filter_form .filter_form_field.filter_check_boxes label {
+  margin-bottom: 3px;
+}
+/* line 305, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form.filter_form .filter_form_field.filter_check_boxes fieldset {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+/* line 309, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form.filter_form .filter_form_field.filter_check_boxes .check_boxes_wrapper label {
+  font-weight: normal;
+  margin-bottom: 3px;
+  text-transform: none;
+  font-size: 1.0em;
+}
+/* line 314, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form.filter_form .filter_form_field.filter_check_boxes .check_boxes_wrapper label input {
+  vertical-align: baseline;
+}
+/* line 319, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form.filter_form .filter_form_field.filter_date_range .seperator {
+  display: inline-block;
+  text-align: center;
+  width: 12px;
+}
+/* line 325, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form.filter_form .filter_form_field.filter_date_range input[type=text] {
+  background: #fff url(/assets/active_admin/datepicker/datepicker-input-icon-d9c2bb73769af777c8a71720d29741f3a499aebd5a043e9a119bd0d9597aed47.png) no-repeat 100% 7px;
+  padding-right: 27px;
+  width: 71px;
+}
+/* line 332, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_forms.scss */
+form.filter_form a.clear_filters_btn {
+  border-radius: 200px;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 1.0em;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 12px;
+  margin-right: 3px;
+  padding: 7px 16px 6px;
+  text-decoration: none;
+  background-color: #FFFFFF;
+  background-image: linear-gradient(180deg, #FFFFFF, #E7E7E7);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 1px 0 0 rgba(255, 255, 255, 0.8) inset;
+  border: solid 1px #c7c7c7;
+  border-color: #c7c7c7;
+  border-top-color: #d3d3d3;
+  border-right-color: #c7c7c7;
+  border-bottom-color: #c2c2c2;
+  border-left-color: #c7c7c7;
+  text-shadow: #fff 0 1px 0;
+  color: #5E6469;
+}
+/* line 12, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/mixins/_buttons.scss */
+form.filter_form a.clear_filters_btn.disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+/* line 50, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/mixins/_buttons.scss */
+form.filter_form a.clear_filters_btn:not(.disabled):hover {
+  background-color: #FFFFFF;
+  background-image: linear-gradient(180deg, #FFFFFF, #F1F1F1);
+}
+/* line 54, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/mixins/_buttons.scss */
+form.filter_form a.clear_filters_btn:not(.disabled):active {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.22) inset, 0 1px 0 0px #EEE;
+  border-color: #b9b9b9;
+  border-top-color: #c2c2c2;
+  border-right-color: #b9b9b9;
+  border-bottom-color: #b7b7b7;
+  border-left-color: #b9b9b9;
+  background-color: #F3F3F3;
+  background-image: linear-gradient(180deg, #F3F3F3, #D8D8D8);
+}

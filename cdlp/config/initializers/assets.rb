@@ -7,4 +7,4 @@ Rails.application.config.assets.version = '1.0'
 Rails.application.config.assets.paths << Rails.root.join('images')
 # Precompile additional assets.
 # application.js, application.css, and all non-JS/CSS in app/assets folder are already added.
-Rails.application.config.assets.precompile += %w( search.js *.css bootswatch.min.css bootstrap.min.js *.js *.jpg)
+Rails.application.config.assets.precompile += %w( search.js bootstrap.min.css bootstrap-theme.min.css ionicons.min.css main.css bootstrap.min.js *.js *.jpg)

@@ -1,0 +1,264 @@
+/* line 28, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_typography.scss */
+html {
+  font-size: 100.01%;
+}
+
+/* line 29, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_typography.scss */
+body {
+  font-size: 75%;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+/* line 32, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_typography.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  color: #5E6469;
+}
+/* line 35, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_typography.scss */
+h1 img, h2 img, h3 img, h4 img, h5 img, h6 img {
+  margin: 0;
+}
+
+/* line 38, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_typography.scss */
+h1 {
+  font-size: 3em;
+  line-height: 1;
+  margin-bottom: 0.5em;
+}
+
+/* line 39, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_typography.scss */
+h2 {
+  font-size: 2em;
+  margin-bottom: 0.75em;
+}
+
+/* line 40, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_typography.scss */
+h3 {
+  font-size: 1.5em;
+  line-height: 1;
+  margin-bottom: 1em;
+}
+
+/* line 41, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_typography.scss */
+h4 {
+  font-size: 1.2em;
+  line-height: 1.25;
+  margin-bottom: 1.25em;
+}
+
+/* line 42, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_typography.scss */
+h5 {
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: 1.5em;
+}
+
+/* line 43, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_typography.scss */
+h6 {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+/* line 46, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_typography.scss */
+p {
+  margin: 0 0 1.5em;
+}
+/* line 49, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_typography.scss */
+p .left {
+  margin: 1.5em 1.5em 1.5em 0;
+  padding: 0;
+}
+/* line 50, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_typography.scss */
+p .right {
+  margin: 1.5em 0 1.5em 1.5em;
+  padding: 0;
+}
+
+/* line 53, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_typography.scss */
+.left {
+  float: left !important;
+}
+
+/* line 54, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_typography.scss */
+.right {
+  float: right !important;
+}
+
+/* line 56, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_typography.scss */
+blockquote {
+  margin: 1.5em;
+  color: #666;
+  font-style: italic;
+}
+
+/* line 57, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_typography.scss */
+strong, dfn {
+  font-weight: bold;
+}
+
+/* line 58, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_typography.scss */
+em, dfn {
+  font-style: italic;
+}
+
+/* line 59, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_typography.scss */
+sup, sub {
+  line-height: 0;
+}
+
+/* line 61, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_typography.scss */
+abbr,
+acronym {
+  border-bottom: 1px dotted #666;
+}
+
+/* line 63, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_typography.scss */
+address {
+  margin: 0 0 1.5em;
+  font-style: italic;
+}
+
+/* line 64, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_typography.scss */
+del {
+  color: #666;
+}
+
+/* line 66, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_typography.scss */
+pre {
+  margin: 1.5em 0;
+  white-space: pre;
+}
+
+/* line 67, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_typography.scss */
+pre, code, tt {
+  font: 1em 'andale mono', 'lucida console', monospace;
+  line-height: 1.5;
+}
+
+/* line 70, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_typography.scss */
+li ul,
+li ol {
+  margin: 0;
+}
+
+/* line 72, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_typography.scss */
+ul, ol {
+  margin: 0 1.5em 1.5em 0;
+  padding-left: 1.5em;
+}
+
+/* line 74, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_typography.scss */
+ul {
+  list-style-type: disc;
+}
+
+/* line 75, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_typography.scss */
+ol {
+  list-style-type: decimal;
+}
+
+/* line 77, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_typography.scss */
+dl {
+  margin: 0 0 1.5em 0;
+}
+
+/* line 78, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_typography.scss */
+dl dt {
+  font-weight: bold;
+}
+
+/* line 79, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_typography.scss */
+dd {
+  margin-left: 1.5em;
+}
+
+/* line 82, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_typography.scss */
+table {
+  margin-bottom: 1.4em;
+  width: 100%;
+}
+
+/* line 83, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_typography.scss */
+th {
+  font-weight: bold;
+}
+
+/* line 84, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_typography.scss */
+thead th {
+  background: #c3d9ff;
+}
+
+/* line 85, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_typography.scss */
+th, td, caption {
+  padding: 4px 10px 4px 5px;
+}
+
+/* line 88, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_typography.scss */
+.small {
+  font-size: .8em;
+  margin-bottom: 1.875em;
+  line-height: 1.875em;
+}
+
+/* line 89, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_typography.scss */
+.large {
+  font-size: 1.2em;
+  line-height: 2.5em;
+  margin-bottom: 1.25em;
+}
+
+/* line 90, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_typography.scss */
+.hide {
+  display: none;
+}
+
+/* line 92, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_typography.scss */
+.quiet {
+  color: #666;
+}
+
+/* line 93, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_typography.scss */
+.loud {
+  color: #000;
+}
+
+/* line 94, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_typography.scss */
+.highlight {
+  background: #ff0;
+}
+
+/* line 95, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_typography.scss */
+.added {
+  background: #060;
+  color: #fff;
+}
+
+/* line 96, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_typography.scss */
+.removed {
+  background: #900;
+  color: #fff;
+}
+
+/* line 98, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_typography.scss */
+.first {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+/* line 99, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_typography.scss */
+.last {
+  margin-right: 0;
+  padding-right: 0;
+}
+
+/* line 100, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_typography.scss */
+.top {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* line 101, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/_typography.scss */
+.bottom {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}

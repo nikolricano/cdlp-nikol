@@ -1,0 +1,168 @@
+/* line 2, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/components/_pagination.scss */
+.paginated_collection_contents {
+  clear: both;
+}
+
+/* line 6, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/components/_pagination.scss */
+.pagination {
+  float: right;
+  font-size: 0.9em;
+  margin-left: 10px;
+}
+/* line 11, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/components/_pagination.scss */
+.pagination a {
+  border-radius: 200px;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 1.0em;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 12px;
+  margin-right: 3px;
+  padding: 7px 16px 6px;
+  text-decoration: none;
+  background-color: #FFFFFF;
+  background-image: linear-gradient(180deg, #FFFFFF, #E7E7E7);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 1px 0 0 rgba(255, 255, 255, 0.8) inset;
+  border: solid 1px #c7c7c7;
+  border-color: #c7c7c7;
+  border-top-color: #d3d3d3;
+  border-right-color: #c7c7c7;
+  border-bottom-color: #c2c2c2;
+  border-left-color: #c7c7c7;
+  text-shadow: #fff 0 1px 0;
+  color: #5E6469;
+}
+/* line 12, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/mixins/_buttons.scss */
+.pagination a.disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+/* line 50, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/mixins/_buttons.scss */
+.pagination a:not(.disabled):hover {
+  background-color: #FFFFFF;
+  background-image: linear-gradient(180deg, #FFFFFF, #F1F1F1);
+}
+/* line 54, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/mixins/_buttons.scss */
+.pagination a:not(.disabled):active {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.22) inset, 0 1px 0 0px #EEE;
+  border-color: #b9b9b9;
+  border-top-color: #c2c2c2;
+  border-right-color: #b9b9b9;
+  border-bottom-color: #b7b7b7;
+  border-left-color: #b9b9b9;
+  background-color: #F3F3F3;
+  background-image: linear-gradient(180deg, #F3F3F3, #D8D8D8);
+}
+/* line 15, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/components/_pagination.scss */
+.pagination span.page.current {
+  border-radius: 200px;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 1.0em;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 12px;
+  margin-right: 3px;
+  padding: 7px 16px 6px;
+  text-decoration: none;
+  background-color: #838a90;
+  background-image: linear-gradient(180deg, #838a90, #414549);
+  text-shadow: #000 0 1px 0;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 1px 0 0px rgba(255, 255, 255, 0.2) inset;
+  border: solid 1px #484e53;
+  border-color: #484e53;
+  border-top-color: #616a71;
+  border-right-color: #484e53;
+  border-bottom-color: #363b3f;
+  border-left-color: #484e53;
+  color: #efefef;
+}
+/* line 12, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/mixins/_buttons.scss */
+.pagination span.page.current.disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+/* line 29, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/mixins/_buttons.scss */
+.pagination span.page.current:not(.disabled):hover {
+  background-color: #8b9297;
+  background-image: linear-gradient(180deg, #8b9297, #484d51);
+}
+/* line 33, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/mixins/_buttons.scss */
+.pagination span.page.current:not(.disabled):active {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4) inset, 0 1px 0 0px #FFF;
+  background-color: #71797f;
+  background-image: linear-gradient(180deg, #71797f, #35383b);
+}
+/* line 19, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/components/_pagination.scss */
+.pagination a, .pagination span.page.current {
+  border-radius: 0px;
+  margin-right: 4px;
+  padding: 2px 5px;
+}
+
+/* line 26, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/components/_pagination.scss */
+.pagination_information {
+  float: right;
+  margin-bottom: 5px;
+  color: #b3bcc1;
+}
+/* line 30, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/components/_pagination.scss */
+.pagination_information b {
+  color: #5c6469;
+}
+
+/* line 33, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/components/_pagination.scss */
+.download_links {
+  float: left;
+}
+
+/* line 37, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/components/_pagination.scss */
+.pagination_per_page {
+  float: right;
+  margin-left: 4px;
+}
+/* line 40, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/components/_pagination.scss */
+.pagination_per_page select {
+  border-radius: 200px;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 1.0em;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 12px;
+  margin-right: 3px;
+  padding: 7px 16px 6px;
+  text-decoration: none;
+  background-color: #FFFFFF;
+  background-image: linear-gradient(180deg, #FFFFFF, #E7E7E7);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 1px 0 0 rgba(255, 255, 255, 0.8) inset;
+  border: solid 1px #c7c7c7;
+  border-color: #c7c7c7;
+  border-top-color: #d3d3d3;
+  border-right-color: #c7c7c7;
+  border-bottom-color: #c2c2c2;
+  border-left-color: #c7c7c7;
+  text-shadow: #fff 0 1px 0;
+  color: #5E6469;
+  border-radius: 0px;
+  padding: 1px 5px;
+}
+/* line 12, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/mixins/_buttons.scss */
+.pagination_per_page select.disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+/* line 50, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/mixins/_buttons.scss */
+.pagination_per_page select:not(.disabled):hover {
+  background-color: #FFFFFF;
+  background-image: linear-gradient(180deg, #FFFFFF, #F1F1F1);
+}
+/* line 54, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/mixins/_buttons.scss */
+.pagination_per_page select:not(.disabled):active {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.22) inset, 0 1px 0 0px #EEE;
+  border-color: #b9b9b9;
+  border-top-color: #c2c2c2;
+  border-right-color: #b9b9b9;
+  border-bottom-color: #b7b7b7;
+  border-left-color: #b9b9b9;
+  background-color: #F3F3F3;
+  background-image: linear-gradient(180deg, #F3F3F3, #D8D8D8);
+}

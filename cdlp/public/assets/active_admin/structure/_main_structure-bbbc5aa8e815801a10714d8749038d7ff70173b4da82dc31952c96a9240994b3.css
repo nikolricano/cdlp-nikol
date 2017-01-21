@@ -1,0 +1,34 @@
+/* line 2, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/structure/_main_structure.scss */
+#wrapper {
+  width: 100%;
+}
+
+/* line 6, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/structure/_main_structure.scss */
+.index #wrapper {
+  display: table;
+}
+
+/* line 10, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/structure/_main_structure.scss */
+#active_admin_content {
+  margin: 0;
+  padding: 30px;
+}
+/* line 14, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/structure/_main_structure.scss */
+#active_admin_content #main_content_wrapper {
+  float: left;
+  width: 100%;
+}
+/* line 18, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/structure/_main_structure.scss */
+#active_admin_content #main_content_wrapper #main_content {
+  margin-right: 300px;
+}
+/* line 23, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/structure/_main_structure.scss */
+#active_admin_content.without_sidebar #main_content_wrapper #main_content {
+  margin-right: 0;
+}
+/* line 25, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/structure/_main_structure.scss */
+#active_admin_content #sidebar {
+  float: left;
+  width: 270px;
+  margin-left: -270px;
+}

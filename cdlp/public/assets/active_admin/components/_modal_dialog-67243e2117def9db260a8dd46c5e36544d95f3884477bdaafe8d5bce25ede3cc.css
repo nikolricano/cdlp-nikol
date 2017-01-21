@@ -1,0 +1,147 @@
+/* line 2, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/components/_modal_dialog.scss */
+.ui-widget-overlay {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.2);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1001;
+}
+
+/* line 9, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/components/_modal_dialog.scss */
+.ui-dialog {
+  position: fixed;
+  z-index: 1002;
+  background: #f4f4f4;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 4px #ddd;
+  box-shadow: rgba(0, 0, 0, 0.5) 0 0 10px;
+}
+/* line 15, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/components/_modal_dialog.scss */
+.ui-dialog .ui-dialog-titlebar {
+  background-color: #efefef;
+  background-image: linear-gradient(180deg, #efefef, #dfe1e2);
+  text-shadow: #fff 0 1px 0;
+  border: solid 1px #cdcdcd;
+  border-color: #d4d4d4;
+  border-top-color: #e6e6e6;
+  border-right-color: #d4d4d4;
+  border-bottom-color: #cdcdcd;
+  border-left-color: #d4d4d4;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 0 1px #FFF inset;
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 18px;
+  margin-bottom: 0.5em;
+  color: #5E6469;
+  padding: 5px 10px 3px 10px;
+}
+/* line 17, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/components/_modal_dialog.scss */
+.ui-dialog .ui-dialog-titlebar span {
+  font-size: 1.1em;
+}
+/* line 20, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/components/_modal_dialog.scss */
+.ui-dialog ul {
+  list-style-type: none;
+}
+/* line 21, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/components/_modal_dialog.scss */
+.ui-dialog li {
+  margin: 10px 0;
+}
+/* line 22, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/components/_modal_dialog.scss */
+.ui-dialog label {
+  margin-right: 10px;
+}
+/* line 24, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/components/_modal_dialog.scss */
+.ui-dialog .ui-dialog-buttonpane, .ui-dialog form {
+  padding: 7px 15px 13px;
+}
+/* line 28, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/components/_modal_dialog.scss */
+.ui-dialog .ui-dialog-buttonpane button {
+  border-radius: 200px;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 1.0em;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 12px;
+  margin-right: 3px;
+  padding: 7px 16px 6px;
+  text-decoration: none;
+  background-color: #838a90;
+  background-image: linear-gradient(180deg, #838a90, #414549);
+  text-shadow: #000 0 1px 0;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 1px 0 0px rgba(255, 255, 255, 0.2) inset;
+  border: solid 1px #484e53;
+  border-color: #484e53;
+  border-top-color: #616a71;
+  border-right-color: #484e53;
+  border-bottom-color: #363b3f;
+  border-left-color: #484e53;
+  color: #efefef;
+}
+/* line 12, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/mixins/_buttons.scss */
+.ui-dialog .ui-dialog-buttonpane button.disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+/* line 29, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/mixins/_buttons.scss */
+.ui-dialog .ui-dialog-buttonpane button:not(.disabled):hover {
+  background-color: #8b9297;
+  background-image: linear-gradient(180deg, #8b9297, #484d51);
+}
+/* line 33, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/mixins/_buttons.scss */
+.ui-dialog .ui-dialog-buttonpane button:not(.disabled):active {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4) inset, 0 1px 0 0px #FFF;
+  background-color: #71797f;
+  background-image: linear-gradient(180deg, #71797f, #35383b);
+}
+/* line 29, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/components/_modal_dialog.scss */
+.ui-dialog .ui-dialog-buttonpane button:last-child {
+  border-radius: 200px;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 1.0em;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 12px;
+  margin-right: 3px;
+  padding: 7px 16px 6px;
+  text-decoration: none;
+  background-color: #FFFFFF;
+  background-image: linear-gradient(180deg, #FFFFFF, #E7E7E7);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 1px 0 0 rgba(255, 255, 255, 0.8) inset;
+  border: solid 1px #c7c7c7;
+  border-color: #c7c7c7;
+  border-top-color: #d3d3d3;
+  border-right-color: #c7c7c7;
+  border-bottom-color: #c2c2c2;
+  border-left-color: #c7c7c7;
+  text-shadow: #fff 0 1px 0;
+  color: #5E6469;
+}
+/* line 12, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/mixins/_buttons.scss */
+.ui-dialog .ui-dialog-buttonpane button:last-child.disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+/* line 50, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/mixins/_buttons.scss */
+.ui-dialog .ui-dialog-buttonpane button:last-child:not(.disabled):hover {
+  background-color: #FFFFFF;
+  background-image: linear-gradient(180deg, #FFFFFF, #F1F1F1);
+}
+/* line 54, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/mixins/_buttons.scss */
+.ui-dialog .ui-dialog-buttonpane button:last-child:not(.disabled):active {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.22) inset, 0 1px 0 0px #EEE;
+  border-color: #b9b9b9;
+  border-top-color: #c2c2c2;
+  border-right-color: #b9b9b9;
+  border-bottom-color: #b7b7b7;
+  border-left-color: #b9b9b9;
+  background-color: #F3F3F3;
+  background-image: linear-gradient(180deg, #F3F3F3, #D8D8D8);
+}
+
+/* line 34, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/components/_modal_dialog.scss */
+.active_admin_dialog.ui-dialog .ui-dialog-titlebar-close {
+  display: none;
+}

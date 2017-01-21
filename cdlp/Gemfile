@@ -44,4 +44,10 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
+  gem 'activeadmin', git: 'git://github.com/sorsucrel/activeadmin-1', branch: 'hotfix/global-reset'
 
+  gem 'devise'
+
+  gem 'carrierwave', '~> 1.0'
+
+  gem 'rmagick', '~> 2.15', '>= 2.15.4'

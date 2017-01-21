@@ -1,0 +1,158 @@
+/* line 3, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/components/_date_picker.scss */
+.ui-datepicker {
+  background: #fff;
+  background-clip: padding-box;
+  color: #fff;
+  display: none;
+  margin-top: 2px;
+  padding: 0;
+  text-align: center;
+  width: 160px;
+}
+/* line 13, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/components/_date_picker.scss */
+.ui-datepicker a {
+  text-decoration: none;
+}
+/* line 15, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/components/_date_picker.scss */
+.ui-datepicker a:hover {
+  cursor: pointer;
+}
+/* line 20, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/components/_date_picker.scss */
+.ui-datepicker .ui-datepicker-header {
+  height: 14px;
+  background-color: #6a7176;
+  background-image: linear-gradient(180deg, #6a7176, #4d5256);
+  border-bottom: 1px solid #44484b;
+  padding: 12px 5px 7px 4px;
+  margin: 0px 0px 2px 2px;
+  width: 147px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  position: relative;
+  z-index: 2000;
+}
+/* line 31, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/components/_date_picker.scss */
+.ui-datepicker .ui-datepicker-header:before {
+  content: "";
+  position: absolute;
+  right: 45%;
+  top: -6px;
+  width: 0px;
+  height: 0px;
+  border-left: 8.5px solid transparent;
+  border-right: 8.5px solid transparent;
+  border-bottom: 10px solid #676e73;
+}
+/* line 43, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/components/_date_picker.scss */
+.ui-datepicker .ui-datepicker-header .ui-datepicker-title {
+  text-shadow: #000 0 1px 0;
+  color: #fff;
+  display: block;
+  font-size: 1.1em;
+  font-weight: bold;
+  line-height: 0.8em;
+  text-align: center;
+}
+/* line 52, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/components/_date_picker.scss */
+.ui-datepicker .ui-datepicker-header .ui-datepicker-title .ui-datepicker-month {
+  margin: -4px 0 0 0;
+}
+/* line 55, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/components/_date_picker.scss */
+.ui-datepicker .ui-datepicker-header .ui-datepicker-title .ui-datepicker-year {
+  margin: -4px 0 0 0;
+}
+/* line 61, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/components/_date_picker.scss */
+.ui-datepicker .ui-datepicker-header a {
+  color: #fff;
+  display: block;
+  height: 19px;
+  margin-top: -4px;
+  width: 10px;
+}
+/* line 68, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/components/_date_picker.scss */
+.ui-datepicker .ui-datepicker-header a.ui-datepicker-prev {
+  float: left;
+  width: 0;
+  height: 0;
+  margin: 0px 0px 0px 4px;
+  border-top: 5px solid transparent;
+  border-right: 5px solid white;
+  border-bottom: 5px solid transparent;
+}
+/* line 77, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/components/_date_picker.scss */
+.ui-datepicker .ui-datepicker-header a.ui-datepicker-next {
+  float: right;
+  width: 0;
+  height: 0;
+  margin: 0px 4px 0px 0px;
+  border-top: 5px solid transparent;
+  border-left: 5px solid white;
+  border-bottom: 5px solid transparent;
+}
+/* line 87, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/components/_date_picker.scss */
+.ui-datepicker .ui-datepicker-header a span {
+  display: none;
+}
+/* line 93, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/components/_date_picker.scss */
+.ui-datepicker table.ui-datepicker-calendar {
+  border-radius: 0;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.26);
+  background-color: #f4f4f4;
+  border: solid 1px #63686e;
+  left: 2px;
+  margin-bottom: 0px;
+  position: relative;
+  top: -2px;
+  width: 156px;
+}
+/* line 104, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/components/_date_picker.scss */
+.ui-datepicker table.ui-datepicker-calendar td, .ui-datepicker table.ui-datepicker-calendar th {
+  padding: 0px;
+  text-align: center;
+}
+/* line 109, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/components/_date_picker.scss */
+.ui-datepicker table.ui-datepicker-calendar thead th {
+  background-color: #dbdddf;
+  color: #333333;
+  font-weight: normal;
+  font-size: 0.8em;
+  padding-top: 1px;
+}
+/* line 117, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/components/_date_picker.scss */
+.ui-datepicker table.ui-datepicker-calendar tbody {
+  color: #666666;
+}
+/* line 120, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/components/_date_picker.scss */
+.ui-datepicker table.ui-datepicker-calendar tbody td {
+  border: none;
+  height: 24px;
+  width: 22px;
+}
+/* line 125, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/components/_date_picker.scss */
+.ui-datepicker table.ui-datepicker-calendar tbody td a {
+  border-radius: 3px;
+  color: #666666;
+  font-weight: bold;
+  font-size: 0.85em;
+  padding: 4px;
+}
+/* line 132, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/components/_date_picker.scss */
+.ui-datepicker table.ui-datepicker-calendar tbody td a.ui-state-active {
+  background-color: #5a5f64;
+  color: #fff;
+}
+/* line 135, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/components/_date_picker.scss */
+.ui-datepicker table.ui-datepicker-calendar tbody td a.ui-state-active.ui-state-hover {
+  background-color: #5a5f64;
+  color: #fff;
+}
+/* line 140, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/components/_date_picker.scss */
+.ui-datepicker table.ui-datepicker-calendar tbody td a.ui-state-hover {
+  background-color: #eceef0;
+}
+/* line 143, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/components/_date_picker.scss */
+.ui-datepicker table.ui-datepicker-calendar tbody td a.ui-state-highlight {
+  background-color: #dbdddf;
+}

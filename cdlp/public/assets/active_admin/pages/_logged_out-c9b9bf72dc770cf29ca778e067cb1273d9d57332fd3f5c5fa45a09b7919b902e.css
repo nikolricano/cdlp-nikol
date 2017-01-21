@@ -1,0 +1,70 @@
+/* line 2, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/pages/_logged_out.scss */
+body.logged_out {
+  background: #e8e9ea;
+}
+/* line 5, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/pages/_logged_out.scss */
+body.logged_out #content_wrapper {
+  width: 500px;
+  margin: 70px auto;
+}
+/* line 8, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/pages/_logged_out.scss */
+body.logged_out #content_wrapper #active_admin_content {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.37);
+  background: #fff;
+  padding: 13px 30px;
+}
+/* line 15, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/pages/_logged_out.scss */
+body.logged_out h2 {
+  background-color: #efefef;
+  background-image: linear-gradient(180deg, #efefef, #dfe1e2);
+  text-shadow: #fff 0 1px 0;
+  border: solid 1px #cdcdcd;
+  border-color: #d4d4d4;
+  border-top-color: #e6e6e6;
+  border-right-color: #d4d4d4;
+  border-bottom-color: #cdcdcd;
+  border-left-color: #d4d4d4;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 0 1px #FFF inset;
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 18px;
+  margin-bottom: 0.5em;
+  color: #5E6469;
+  padding: 5px 10px 3px 10px;
+  background-color: #6a7176;
+  background-image: linear-gradient(180deg, #6a7176, #4d5256);
+  border-bottom: 1px solid #44484b;
+  text-shadow: #000 0 1px 0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  border: none;
+  color: #fff;
+  margin: -13px -30px 20px -30px;
+}
+/* line 25, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/pages/_logged_out.scss */
+body.logged_out #login {
+  /* Login Form */
+}
+/* line 28, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/pages/_logged_out.scss */
+body.logged_out #login form fieldset {
+  box-shadow: none;
+  background: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+/* line 32, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/pages/_logged_out.scss */
+body.logged_out #login form fieldset li {
+  padding: 10px 0;
+}
+/* line 34, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/pages/_logged_out.scss */
+body.logged_out #login form fieldset input[type=text], body.logged_out #login form fieldset input[type=email], body.logged_out #login form fieldset input[type=password] {
+  width: 70%;
+}
+/* line 37, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/pages/_logged_out.scss */
+body.logged_out #login form fieldset.buttons {
+  margin-left: 20%;
+}
+/* line 42, /Users/nikol/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/bundler/gems/activeadmin-1-64bc2e29129c/app/assets/stylesheets/active_admin/pages/_logged_out.scss */
+body.logged_out #login a {
+  float: right;
+  margin-top: -32px;
+}
