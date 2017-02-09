@@ -3,6 +3,9 @@ Rails.application.routes.draw do
   ActiveAdmin.routes(self)
   root 'pages#pag_1'
   get 'pages/pag_2'
+  get 'pages/course1'
+  post 'pages/newsletters'
+  get 'pages/newsletter'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

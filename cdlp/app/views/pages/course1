@@ -214,18 +214,17 @@
                             <b class="mb10">The Pilates Method of Body Conditioning develops the body uniformly, invigorates the mind and elevates the spirit.</b>
                         </div>
                         <div class="col-md-6 text-right">
-                            <%=form_for @newsletter_register, url: pages_newsletters_path, class: "form-inline subscribe-form", id: "subscription-form", role: "form" do |f| %>
+                            <form class="form-inline subscribe-form" id="subscription-form" role="form">
                                 <div class="form-group">
                                     <label class="sr-only" for="subscriber-name">Full Name</label>
-                                    <%=f.text_field :name, class: "form-control", id: "subscriber-name", placeholder: "Your Name" %>
-                                  </div>
-
+                                    <input name="name" type="text" class="form-control" id="subscriber-name" placeholder="Your Name">
+                                </div>
                                 <div class="form-group">
                                     <label class="sr-only" for="subscriber-email">Email address</label>
-                                    <%=f.text_field :email, class: "form-control", id: "subscriber-email", placeholder: "Your Email" %>
+                                    <input name="email" type="email" class="form-control" id="subscriber-email" placeholder="Your Email">
                                 </div>
                                 <input id="subscribe-button" type="submit" class="btn btn-primary" value="Get it!">
-                            <% end %>
+                            </form>
                             <!-- SUCCESS OR ERROR MESSAGES -->
                             <div id="subscription-response"></div>
                         </div>
